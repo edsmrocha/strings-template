@@ -17,7 +17,7 @@
 let seunome = prompt("Qual o seu nome?")
 let email = prompt("Qual o seu e-amil?")
 let bemvindo = `O e-mail ${email} foi cadastrado com sucesso. Boas Vindas! ${seunome}`
-const novaBemVindo = bemvindo.replace("r","x")
+const novaBemVindo = bemvindo.replaceAll("r","x")
 
 console.log(bemvindo)
 console.log(seunome.length);
